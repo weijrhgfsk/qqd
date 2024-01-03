@@ -1,0 +1,78 @@
+{
+    "hikka.security": {
+        "owner": [
+            1211082919
+        ]
+    },
+    "hikka.inline.token_obtainment": {
+        "no_mute": true
+    },
+    "hikka.inline": {
+        "bot_token": "5711230771:AAHdWxDUXtxm48I0UlUKXneYu1O2J62H0tY"
+    },
+    "InlineStuffMod": {
+        "migrated": true
+    },
+    "Presets": {
+        "sent": true
+    },
+    "HikkaRestartMod": {
+        "do_not_create": true
+    },
+    "QuickstartMod": {
+        "disable_quickstart": true
+    },
+    "APIRatelimiterMod": {
+        "__config__": {
+            "time_sample": 15,
+            "threshold": 100,
+            "local_floodwait": 30,
+            "forbidden_methods": [
+                "joinChannel",
+                "importChatInvite"
+            ]
+        }
+    },
+    "HelpMod": {
+        "__config__": {
+            "core_emoji": "\u25aa\ufe0f",
+            "hikka_emoji": "\ud83c\udf18",
+            "plain_emoji": "\u25ab\ufe0f",
+            "empty_emoji": "\ud83d\ude48"
+        }
+    },
+    "HikkaInfoMod": {
+        "__config__": {
+            "custom_message": null,
+            "custom_button": [
+                "\ud83c\udf18 Support chat",
+                "https://t.me/hikkawe_support"
+            ],
+            "banner_url": "https://github.com/hikariatama/assets/raw/master/hikka_banner.mp4"
+        }
+    },
+    "LoaderMod": {
+        "__config__": {
+            "MODULES_REPO": "https://mods.hikariatama.ru",
+            "ADDITIONAL_REPOS": [
+                "https://github.com/hikariatama/host/raw/master",
+                "https://github.com/MoriSummerz/ftg-mods/raw/main",
+                "https://gitlab.com/CakesTwix/friendly-userbot-modules/-/raw/master"
+            ],
+            "share_link": false
+        },
+        "reacted": [
+            "1616965878/Speedtest"
+        ]
+    },
+    "TestMod": {
+        "__config__": {
+            "force_send_all": false,
+            "tglog_level": "INFO"
+        }
+    },
+    "hikka.main": {
+        "permanent_modules_fs": true,
+        "disable_modules_fs": false
+    }
+}
